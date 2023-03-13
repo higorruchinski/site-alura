@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  #post-title {
+  font-family: "brandon-grotesque-n7","brandon-grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+   
+}
+} 
+.cabecalho {
+    background-color: black;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+ 
+    display: black;
+ 
+    margin: 2 12px;
+    font-size: 24px;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient (#424E61,#16CFF8);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+
+
+.escola-titulo{
+    padding: 24px 0;
+}
+
+.estudante{
+    padding: 24px 0;
+}
+JS
+JS Options
+1
+<body>
+2
+    <header class="cabecalho">
+3
+        <img class="cabecalho-imagem" src="https://br.top10place.com/img_files/578840575612469" alt="Maria Luiza">
+4
+        <ul class="cabecalho-lista">
+5
+            <li class="cabecalho-lista-item"><a href="#escola">Colégio</a></li>
+6
+            <li class="cabecalho-lista-item"><a href="#estudante">Alunos</a></li>
+7
+        </ul>
+8
+    </header>
+9
+    <section id="escola">
+10
+        <div class="escola-div-conteudo">
+11
+            <h2 class="escola-
+
+/* animação para webkit */
+@-webkit-keyframes fundocor {
+    0%   {background: orange;}
+    25%  {background: red;}
+    50%  {background: green;}
+    100% {background: blue;}
+}
+
+/* animação padrão */
+@keyframes fundocor {
+    0%   {background: orange;}
+    25%  {background: red;}
+    50%  {background: green;}
+    100% {background: blue;}
+}
+
+/* executa a chamada da animação no body */
+body{
+-webkit-animation: fundocor 5s linear 2s infinite alternate; /* chamada para Chrome, Safari, Opera */
+    animation: fundocor 5s linear 2s infinite alternate; /* chamada padrão */
+}
+
+Console
+Assets
+
+
+CodePen: Unlock all of CodePen
